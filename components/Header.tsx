@@ -2,6 +2,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import React from 'react'
 import { SignedOut, UserButton,SignInButton } from '@clerk/nextjs';
+import { ThemeToggle } from './ThemeToggler';
 
 function Header() {
   return (
@@ -20,8 +21,10 @@ function Header() {
             <h1 className='font-bold text-xl'>Dropbox</h1>
         </Link>
 
-        <div>
-            {/* Theme toggler */}
+        <div className='px-5 flex space-x-2 items-center'>
+            
+            <ThemeToggle/>
+
             <UserButton afterSignOutUrl='/'/>
 
           

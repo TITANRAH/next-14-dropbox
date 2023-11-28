@@ -14,4 +14,11 @@ https://ui.shadcn.com/docs/dark-mode/next
  se agregan componentes a la carpeta ui
 
  npm install next-themes
+ y encerrar el children de layout en ThemeProvider
+ seguir documentacion de https://ui.shadcn.com/docs/dark-mode/next
+ la propiedad de class en el atributo de theme provider que encierra el children es la configurada en
+ eñ archivo de tailwind
  npx shadcn-ui@latest add dropdown-menu
+
+
+ instalar dropzone npm install --save react-dropzone

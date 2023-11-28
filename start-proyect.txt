@@ -1,0 +1,17 @@
+1 npx create-next-app@latest name-prouect
+2 seguir esta guia para instalar clerk https://clerk.com/docs/quickstarts/nextjs?_gl=1*grquxe*_gcl_au*MTM2ODg4NTczLjE3MDExMzA2MDg.
+3 instalar npm i next-themes 
+o seguir esta docu para darkmodes
+4 instalar con esta documentacion shadcn https://ui.shadcn.com/docs/components/dropdown-menu
+
+https://ui.shadcn.com/docs/dark-mode/next
+
+ 
+ npx shadcn-ui@latest init
+ se crean archivos como utils
+
+ npx shadcn-ui@latest add button
+ se agregan componentes a la carpeta ui
+
+ npm install next-themes
+ npx shadcn-ui@latest add dropdown-menu
